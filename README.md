@@ -1,5 +1,4 @@
 # Docker-Multisite-Drupal-8
-Compose file to create Drupal + Drush container
 
 This compose file just set up a basic containers for use Drupal with a minimum customitazion, feel free to customize it adding Dockerfiles or env files as you needed.
 
