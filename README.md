@@ -6,7 +6,7 @@ In case you are wondering, the reason for host_config volume it's be able to cus
 
 - 1) Run the compose and go to the drupal container ip adress from your browser
 
-- 2) Install a Drupal root site (database, user, password are defined in compose file and database host could be mysql container ip or its alias, as default mysql) *If you didn't alter them, they will be the same for another site installation
+- 2) Install a Drupal root site (database, user, password are defined in compose file and database host could be mysql container ip or its alias, as default mysql) *For nexts sites installations you should use 'root' user and empty password as it's declared by default in compose file
 
 - 3) Edit your hosts file OUTSIDE container (I mean in your real or virtual machine). Just put a pretty name to point drupal container ip ;) this name will be the root domain name for your multisite installation.
 
